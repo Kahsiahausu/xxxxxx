@@ -1,0 +1,10 @@
+local Window = Library.CreateLib("Script Made By kakashiggh", "BloodTheme") local Tab = Window:NewTab("Scripts") local Section = Tab:NewSection("Buy NFT (With Game Money!)") Section:NewButton("F", "Buy F", function() local args = { [1] = "F" } 
+
+
+game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+
+
+end) Section:NewButton("Buy A", "Buy A", function() local args = { [1] = "A" }
+
+
+game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
