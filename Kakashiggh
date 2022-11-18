@@ -8,3 +8,6 @@ end) Section:NewButton("Buy A", "Buy A", function() local args = { [1] = "A" }
 
 
 game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+
+
+end)
